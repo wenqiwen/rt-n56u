@@ -3,12 +3,12 @@ name: Build MT7621-1
 on: 
   release:
     types: [published]
-#  push:
+  push:
 #    tags:
 #    - 'v*'
-  #  branches: 
+    branches: 
   #    - master
-#  schedule:
+# schedule:
  #   - cron: 0 17 * * 4
 #  watch:
    # types: [started]
